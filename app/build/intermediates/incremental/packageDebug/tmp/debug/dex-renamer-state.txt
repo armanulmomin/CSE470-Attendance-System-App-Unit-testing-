@@ -1,0 +1,4 @@
+#Sun Dec 27 02:35:33 BDT 2020
+base.0=C\:\\Users\\User\\Desktop\\Project 7\\App 2\\Android-Attendance-App-master\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

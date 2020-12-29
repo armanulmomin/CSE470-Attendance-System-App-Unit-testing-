@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidattendancesystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+         android:name="com.android.attendance.context.ApplicationContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.attendance.activity.View.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.Controller.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.View.MenuActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.Model.AddFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.Model.AddStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.Controller.ViewFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.Controller.ViewStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.Controller.TestActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.Controller.ViewStudentByBranchYear"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.android.attendance.activity.Model.AddAttandanceSessionActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.Model.AddAttendanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.Controller.ViewAttendanceByFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.attendance.activity.Controller.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>
